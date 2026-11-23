@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS en tablas</title>
+    <style>
+        table{margin: auto;}
+        table,th,td {border: 2px solid blue;
+        border-collapse: collapse;}
+        tr {height: 80px;}
+        table {width: 70%}
+        td {vertical-align: center;
+        text-align: center;}
+        tr:hover {background-color: gainsboro;}
+        tr:nth-child(even){background-color: aquamarine;}
+        tr:nth-child(odd){background-color:cornflowerblue;}
+    </style>
+</head>
+<body>
+    <a href="margenes.html">Ver márgenes y padding</a>
+    <h1>CSS en tablas</h1>
+    <table>
+        <tr>
+            <th>Artículo</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Aceite de Oliva</td>
+            <td>10.00€</td>
+        </tr>
+        <tr>
+            <td>Tortas de Álcazar</td>
+            <td>25€</td>
+        </tr>
+    </table>
+</body>
+</html>
